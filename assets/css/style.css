@@ -1,0 +1,22 @@
+
+/* nav bar */
+
+#nav-bar li {
+    display: inline;
+    float: right;
+    margin: 10px;
+    font-size: larger;
+}
+
+
+/* Footer */
+
+footer {
+    position: fixed;
+    height: 20%;
+    width: 100%;
+    background-color: darkgoldenrod;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
