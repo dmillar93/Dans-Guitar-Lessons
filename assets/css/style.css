@@ -7,10 +7,16 @@
     text-decoration: none;
 }
 
+h1 , h2 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
 body {
     font-family: pt setrif, sans-serif;
     background-color: #3a3a3a;
     color: white;
+    background-image: url(../css/images/digital-paper-5316752_1920.jpg);
 }
 
 /* nav bar */
@@ -28,6 +34,7 @@ body {
     height: 100px;
     background-color: darkgoldenrod;
     border: 2px solid #3a3a3a;
+    margin: 5px;
 }
 
 #logo {
@@ -39,7 +46,7 @@ body {
 
 
 #nav-bar {
-    background-color: rgb(78, 57, 29);
+    background-color: rgba(78, 57, 29, 0.925);
     margin: 10px;
 }
 
@@ -61,7 +68,7 @@ body {
     float: left;
     margin: 20px;
     padding: 50px;
-    background-color: red;
+    background-color: rgba(133, 134, 62, 0.925);
     text-align: center;
     display: inline-block;
 }
@@ -71,7 +78,7 @@ body {
     text-align: center;
     margin: 20px;
     padding: 50px;
-    background-color: blue;
+    background-color: rgba(111, 122, 68, 0.925);
     float: left;
     display: inline-block;
 }
@@ -148,7 +155,7 @@ footer {
     text-align: center;
     margin: 20px;
     padding: 50px;
-    background-color: rgb(151, 151, 223);
+    background-color: rgba(70, 168, 163, 0.925);
     float: left;
     display: inline-block;
 }
@@ -158,7 +165,7 @@ footer {
     text-align: center;
     margin: 20px;
     padding: 50px;
-    background-color: rgb(187, 91, 47);
+    background-color: rgba(108, 126, 30, 0.925);
     float: left;
     display: inline-block;
 }
@@ -168,7 +175,7 @@ footer {
     text-align: center;
     margin: 20px;
     padding: 50px;
-    background-color: rgb(50, 155, 64);
+    background-color: rgba(29, 119, 82, 0.925);
     float: left;
     display: inline-block;
 }
@@ -178,4 +185,59 @@ footer {
     width: 100%;
     background: url(../css/images/pexels-brent-keane-1751731\ \(1\).jpg) no-repeat center center;
     display: inline-block;
+}
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("../css/images/pexels-artem-podrez-4680153.jpg") no-repeat center center;
+    /* background-size: cover; */
+    background-position: center;
+    height: 600px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(179, 182, 35, 0.925);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width:100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #728812ea;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #1977adec;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }

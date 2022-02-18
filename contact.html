@@ -23,13 +23,13 @@
                 <nav>
                     <ul id="nav-bar">
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="contact.html" class="active">Contact</a>
                         </li>
                         <li>
                             <a href="get-started.html">Get started!</a>
                         </li>
                         <li>
-                            <a href="index.html" class="active">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                     </ul>
                 </nav>
@@ -37,31 +37,22 @@
         </div>
         
     </header>
-
-    <section>
-        <div id="head-text">
-            <h2>Welcome to Dan's Guitar lessons!</h2>
-            <p>Have you always wanted to learn guitar but didn't know how to get started?<br>
-                Its never too late to learn to play the guitar, <br>
-                whether you’re taking your first steps or have been <br>
-                playing for a while and looking for some help progressing, you’ve come to the right place.</p>
-            <p>Dan offers online lessons via zoom, google meet or Skype.</p>
-            <p>The lessons are flexible and tailored to your needs, we can discuss why and what you want to learn and
-                how best to get you to your goal!</p>
-        </div>
+    <section class="form-section">
+        <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Get in touch to book your first lesson!<i class="fa-solid fa-guitar"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" name="first_name" type="text" required >
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text" name="last_name" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required>
+        
+            <input type="submit" value="Start learning" class="join-button">
+        </form>
     </section>
-    <section>
-        <div id="about-text">
-            <h2>About Dan</h2>
-            <p>Dan has been playing guitar for over 20 years and teaching for 5 years. <br>
-                He loves all sorts of guitar based music.</p>
-        </div>
-    </section>
-    <section>
-        <div id="dan-live">
-
-        </div>
-    </section>
+   
     <footer>
         <div id="footer-elements">
             <ul class="social-networks">
