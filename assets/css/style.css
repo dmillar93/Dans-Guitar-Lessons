@@ -170,6 +170,16 @@ footer {
     display: inline-block;
 }
 
+#tuner-audio {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    background-color: rgba(108, 126, 30, 0.925);
+    float: left;
+    display: inline-block;
+}
+
 #faqs {
     width: 100%;
     text-align: center;
@@ -240,4 +250,24 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* for medium screen sizes from 950px wide and down  */
+
+@media screen and (max-width: 950px) {
+   £nav-bar {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
 }
