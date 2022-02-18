@@ -21,14 +21,6 @@ body {
 
 /* nav bar */
 
-/* #page-top {
-    width: 100%;
-    background-color: darkgoldenrod;
-    border: 2px solid #3a3a3a;
-    left: 0;
-    bottom: 0;
-} */
-
 #header {
     width: 100%;
     height: 100px;
@@ -70,7 +62,6 @@ body {
     padding: 50px;
     background-color: rgba(133, 134, 62, 0.925);
     text-align: center;
-    /* display: inline-block; */
 }
 
 #about-text {
@@ -80,7 +71,6 @@ body {
     padding: 50px;
     background-color: rgba(111, 122, 68, 0.925);
     float: left;
-    /* display: inline-block; */
 }
 
 #dan-live {
@@ -90,14 +80,9 @@ body {
     display: inline-block;
 }
 
-/* Footer */
-
 /* footer */
 
 footer {
-    /* height: 90px; */
-    /* position: fixed; */
-    /* height: 20%; */
     width: 100%;
     background-color: darkgoldenrod;
     border: 2px solid #3a3a3a;
@@ -123,31 +108,6 @@ footer {
     color: #3a3a3a;
 }
 
-/* footer {
-    position: fixed;
-    height: 20%;
-    width: 100%;
-    background-color: darkgoldenrod;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    list-style-type: none;
-    display: block;
-} */
-
-
-/* #footer-elements {
-    position: fixed;
-    height: 20%;
-    width: 100%;
-    background-color: darkgoldenrod;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    list-style-type: none;
-    display: block;
-} */
-
 /* get started page  */
 
 #start-info {
@@ -157,7 +117,7 @@ footer {
     padding: 50px;
     background-color: rgba(70, 168, 163, 0.925);
     float: left;
-    /* display: inline-block; */
+
 }
 
 #what-need {
@@ -167,7 +127,6 @@ footer {
     padding: 50px;
     background-color: rgba(108, 126, 30, 0.925);
     float: left;
-    /* display: inline-block; */
 }
 
 #tuner-audio {
@@ -177,7 +136,6 @@ footer {
     padding: 50px;
     background-color: rgba(108, 126, 30, 0.925);
     float: left;
-    /* display: inline-block; */
 }
 
 #tuner-audio > h3 {
@@ -191,7 +149,6 @@ footer {
     padding: 50px;
     background-color: rgba(29, 119, 82, 0.925);
     float: left;
-    /* display: inline-block; */
 }
 
 #guitar-strum {
@@ -206,7 +163,6 @@ footer {
 .form-section {
     clear: left;
     background: url("../images/pexels-artem-podrez-4680153.jpg") no-repeat center center;
-    /* background-size: cover; */
     background-position: center;
     height: 600px;
 }
